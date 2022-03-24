@@ -1,0 +1,17 @@
+body{
+        background-color:rgb(180,179,179);
+        padding: 10px;
+        margin: 20 px;
+
+}
+ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+}
+
+li{
+        font-size:larger;
+   
+           
+}

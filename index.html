@@ -8,14 +8,18 @@
 
         <body>
             <header>
-                <img src="https://loremflickr.com/320/240/dog"/>
-                <h1>Website Name</h1>
+              <h1>Website Name</h1>
+            
+              <h2> <script>getAnswer()</script> </h2> 
 
-                <h2>                 
-                <script>getAnswer()</script>
-                </h2>
-              
-                <h3>            
+              <script>
+                if (answer.toLowerCase !== "no") 
+                  {<img src="https://loremflickr.com/320/240/dog"/>} 
+                    else 
+                  {<iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" width="320" height="240" autoplay> </iframe>}
+              </script>
+        
+               <h3>            
                      <nav>
                         <ul>
                             <li><a href="#">Link</a></li>
@@ -56,3 +60,4 @@
         </body>
 
     </html>
+

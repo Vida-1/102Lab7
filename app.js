@@ -11,6 +11,12 @@ function getName() {
 
     }
     
+const answer = prompt('Tired of your same old same old day to day?');
+console.log(answer);
+
+dancePref()
+
+
 // Notes from class today follow:
 
 // function yourName() {

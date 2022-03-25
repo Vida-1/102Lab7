@@ -2,6 +2,7 @@
 
 function getAnswer(){
     let answer = prompt("Tired of your same old same old day to day routine?");
+    console.log(answer);
        if(answer.toLowerCase() !== "no"){
           document.write("Yes! Talk to a Code Fellows Admissions Advisor today!")
        } else {

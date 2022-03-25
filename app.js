@@ -1,20 +1,16 @@
-function getName() {
+//based on a demo provided by John Cokos
 
-        let name = prompt ("What is your name?");
-        if (name !== "Vida") {
-                document.write("Let's bounce with the puppy " + name+"!!");
+function getAnswer(){
+    let answer = prompt("Tired of your same old same old day to day routine?");
+       if(answer.toLowerCase() !== "no"){
+          document.write("Yes! Talk to a Code Fellows Admissions Advisor today!")
+       } else {
+              document.write ("It's good to hear things are going to so well for you!");
+              }
+}
 
-        } else {
-                document.write("Let's dance with the puppy, Vida!");
 
-        }
 
-    }
-    
-const answer = prompt('Tired of your same old same old day to day?');
-console.log(answer);
-
-dancePref()
 
 
 // Notes from class today follow:
